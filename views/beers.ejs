@@ -1,0 +1,7 @@
+<div class="beer">
+    <% beerList.forEach((beer) => { %>
+        <div>
+            <%- include("../public/partials/beerCard.ejs", {beer}) %>
+        </div>
+    <% }) %>
+</div>
